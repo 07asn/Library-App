@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif; /* Modern Arabic font, ensure it's added via Google Fonts */
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #6a1b9a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 4px solid #4a148c;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-style: italic;
+  color: #e1bee7;
+}
+
+/* Main Section Styling */
+main {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+/* Book Card Styling */
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin: 0 0 10px;
+  color: #6a1b9a;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #eceff1;
+  color: #333;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 4px solid #b0bec5;
+  margin-top: 20px;
+}
+
+footer p {
+  font-size: 1rem;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+}
