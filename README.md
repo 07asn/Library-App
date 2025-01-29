@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# JavaScript Project: Book Library Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📖 Overview
+This project is a **Book Library Management System** that allows users to perform **CRUD (Create, Read, Update, Delete) operations** on books using **React.js** and **Firebase**. It includes user authentication, book catalog management, and persistent data storage.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠️ Technology Used
+- **React.js**: For building dynamic and reusable UI components.
+- **Firebase Realtime Database**: For storing book data and user authentication.
+- **Axios**: For handling HTTP requests to Firebase.
+- **React Router**: For managing navigation between pages.
+- **Tailwind CSS**: For styling the interface and ensuring a clean, responsive design.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📚 Features & Topics Covered
+- **Authentication**: User signup, login, and logout using local storage.
+- **Book Management**:
+  - **Create**: Users can add new books with title, author, and ISBN.
+  - **Read**: Books are fetched from Firebase and displayed in a catalog.
+  - **Update**: Users can edit book details.
+  - **Soft Delete**: Books can be marked as deleted instead of permanent removal.
+- **Routing**: Navigation between Home, SignUp, Login, and Book Catalog pages.
+- **Reusable Components**: Separation of concerns using modular components for forms, lists, and authentication.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📸 Task
+![Task](https://drive.google.com/uc?export=view&id=1_uIMccXPZYo287W4orBOe4H-9wwrWyCL)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📸 Solution
+![Login](https://drive.google.com/uc?export=view&id=1BDTPdVpe8uqN6yA_8KkwJPE5AlkF12qt)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Sign Up](https://drive.google.com/uc?export=view&id=1G9HwXl-ZP5RB46G5nSqKhJrp2nFJRgAs)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Catalog](https://drive.google.com/uc?export=view&id=1Wwnet8w4_lYkSXidwjbDQ4V8X7wAWLbY)
